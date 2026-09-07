@@ -1,0 +1,71 @@
+/* =========================================================
+   FINOVA - استایل صفحات ورود و ثبت‌نام (Auth Pages)
+   تم روشن
+   ========================================================= */
+
+.auth-body {
+    background: linear-gradient(135deg, #eef2ff 0%, #f4f6f9 60%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.auth-wrapper {
+    width: 100%;
+    max-width: 420px;
+}
+
+.auth-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    padding: 36px 32px;
+}
+
+.auth-brand {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.auth-logo {
+    font-size: 34px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.auth-brand h1 {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--color-primary);
+    letter-spacing: 0.5px;
+}
+
+.auth-brand p {
+    font-size: 13px;
+    color: var(--color-text-muted);
+    margin-top: 4px;
+}
+
+.auth-form .btn {
+    margin-top: 6px;
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 13px;
+    color: var(--color-text-muted);
+}
+
+.auth-footer a {
+    font-weight: 600;
+}
+
+@media (max-width: 480px) {
+    .auth-card {
+        padding: 28px 20px;
+    }
+}

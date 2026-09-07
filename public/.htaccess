@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# اگر فایل یا پوشه‌ای واقعاً وجود دارد (مثل CSS و JS)، مستقیم سرو شود
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# در غیر این صورت همه درخواست‌ها به index.php هدایت شوند
+RewriteRule ^ index.php [QSA,L]
