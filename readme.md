@@ -103,6 +103,3 @@ mysql -u root -p finova_db < database/seed.sql
 رمز عبور:   admin
 ```
 
-## مجوز
-
-این پروژه برای اهداف آموزشی و نمونه‌کار (Portfolio) توسعه داده شده است.
